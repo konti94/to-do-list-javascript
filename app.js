@@ -1,8 +1,6 @@
 const addItem = document.querySelector("#addItem");
 const itemInput = document.querySelector("#itemInput");
 const todoList = document.querySelector(".todo-list");
-let itemHTML;
-let clicked = false;
 
 addItem.addEventListener("click", () => {
 	if (itemInput.value.length === 0) {
